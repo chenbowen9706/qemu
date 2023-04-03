@@ -95,6 +95,7 @@ vi_evdev_watch(VuDev *dev, int condition, void *data)
     struct input_event evdev;
     int rc;
 
+    
     for (;;) {
         rc = read(fd, &evdev, sizeof(evdev));
         if (rc != sizeof(evdev)) {

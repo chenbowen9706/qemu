@@ -598,7 +598,7 @@ int main(int argc, char **argv)
             trace_opt_parse(optarg);
             break;
         case 'V':
-            printf("%s version " QEMU_FULL_VERSION "\n"
+            printf("%s vers1ion " QEMU_FULL_VERSION "\n"
                    QEMU_COPYRIGHT "\n", g_get_prgname());
             exit(0);
         case 'h':
