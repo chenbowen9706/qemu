@@ -309,7 +309,7 @@ static bool input_linux_complete2(InputLinux *il)
     {
         return false;
     }
-    il->grab_request = true;
+    il->grab_request = false;
     return true;
 }
 /*anpanman changed*/
